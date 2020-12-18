@@ -1,0 +1,104 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000;
+
+    .btn {
+        width: 250px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .btn-primary {
+        background: #0275d8;
+        color: whitesmoke;
+        text-transform: uppercase;
+        letter-spacing: 1.5;
+        font-weight: 800;
+        border: none;
+        border-radius: 10px;
+        transition: all 0.5s;
+
+        &:hover {
+            box-shadow: 0 0 5px 0 #0275d8,
+            0 0 15px 0 #0275d8,
+            0 0 35px 0 #0275d8,
+            0 0 55px 0 #0275d8,
+            0 0 75px 0 #0275d8,
+            0 0 100px 0 #0275d8;
+            cursor: pointer;
+            // font-weight: bold; 
+        }
+    }
+
+    .btn-success {
+        background: #5cb85c;
+        color: whitesmoke;
+        text-transform: uppercase;
+        letter-spacing: 1.5;
+        font-weight: 800;
+        border: none;
+        border-radius: 10px;
+        transition: all 0.5s;
+
+        &:hover {
+            box-shadow: 0 0 5px 0 #5cb85c,
+            0 0 15px 0 #5cb85c,
+            0 0 35px 0 #5cb85c,
+            0 0 55px 0 #5cb85c,
+            0 0 75px 0 #5cb85c,
+            0 0 100px 0 #5cb85c;
+            cursor: pointer;
+            // font-weight: bold; 
+        }
+    }
+
+    .btn-warning {
+        background: #f0ad4e;
+        color: whitesmoke;
+        text-transform: uppercase;
+        letter-spacing: 1.5;
+        font-weight: 800;
+        border: none;
+        border-radius: 10px;
+        transition: all 0.5s;
+
+        &:hover {
+            box-shadow: 0 0 5px 0 #f0ad4e,
+            0 0 15px 0 #f0ad4e,
+            0 0 35px 0 #f0ad4e,
+            0 0 55px 0 #f0ad4e,
+            0 0 75px 0 #f0ad4e,
+            0 0 100px 0 #f0ad4e;
+            cursor: pointer;
+            // font-weight: bold; 
+        }
+    }
+
+    .btn-danger {
+        background: #d9534f;
+        color: whitesmoke;
+        text-transform: uppercase;
+        letter-spacing: 1.5;
+        font-weight: 800;
+        border: none;
+        border-radius: 10px;
+        transition: all 0.5s;
+
+        &:hover {
+            box-shadow: 0 0 5px 0 #d9534f,
+            0 0 15px 0 #d9534f,
+            0 0 35px 0 #d9534f,
+            0 0 55px 0 #d9534f,
+            0 0 75px 0 #d9534f,
+            0 0 100px 0 #d9534f;
+            cursor: pointer;
+            // font-weight: bold; 
+        }
+    }
+    
+}
